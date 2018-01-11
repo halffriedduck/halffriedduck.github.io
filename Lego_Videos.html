@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lego Videos</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+
+<br>
+<!--DROP DOWN MENU-->
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<!-- Drop down links -->
+<div class="heading">
+	<div class="dropdown">
+	  <button onclick="myFunction()" class="dropbtn">Menu</button>
+	  <div id="myDropdown" class="dropdown-content">
+	    <a href="Lego_Home.html#home">Home</a>
+	    <a href="Lego_Home.html#products">Products</a>
+	    <a href="Lego_Home.html#gallery">Gallery</a>
+		<a href="Lego_Home.html#videos">Videos</a>
+		<a href="Lego_Home.html#legomap">Lego Stores</a>
+		<a href="Lego_Home.html#demo">Demo</a>
+	  </div>
+	</div>
+
+	<!-- Logo Placement-->
+	<img src="./images/LegoLogo.png" alt="Lego">
+</div>
+<br>
+<br>
+<br>
+<br>
+<h1>Videos</h1>
+<!-- Videos -->
+<div class="row">
+	<div class="column">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/-wX9lomkQr8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+		<p>Courtesy of FK Films</p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/8FAt7ze-QLQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+		<p>Courtesy of MICHAELHICKOXFilms</p>
+	</div>
+	<div class="column">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/9FVqK55glX8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+		<p>Courtesy of FK Films</p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/u8rKDReS2lc" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+		<p>Courtesy of Alexander Studios</p>
+	</div>
+</div>
+
+</body>
+
+</html>

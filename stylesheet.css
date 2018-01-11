@@ -6,7 +6,7 @@
 p
 {
 	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
-	font-size: 14px;
+	font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
@@ -71,7 +71,6 @@ h2 {
 	width:95%;
 	height:60%;
 	position:relative;
-	/* left:2.5%;*/
 	max-width: 98%;
 	max-height: 62%;
 	margin: auto;
@@ -107,7 +106,6 @@ img {
   width:25%;
   float:left;
   padding:.5em;
-  /*background-color:#fff;*/
 }
 @media screen and (max-width:1000px) {
   .item {
@@ -128,44 +126,22 @@ img {
   }
 }
 
-/* Gallery */
-
-div.gallery {
-    border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
-	color:white;
-	font-weight:bold;
-	background-color:gray;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.responsive {
+/* Social media links */
+.responsive2 {
     padding: 0 6px;
     float: left;
-    width: 24.99999%;
+    width: 33.33%;
 }
 
 @media only screen and (max-width: 700px){
-    .responsive {
+    .responsive2 {
         width: 49.99999%;
         margin: 6px 0;
     }
 }
 
 @media only screen and (max-width: 500px){
-    .responsive {
+    .responsive2 {
         width: 100%;
     }
 }
@@ -210,22 +186,44 @@ div.desc {
   }
 }
 
-/* Social media links */
-.responsive2 {
+/* Gallery */
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+	color:white;
+	font-weight:bold;
+	background-color:gray;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
     padding: 0 6px;
     float: left;
-    width: 33.33%;
+    width: 24.99999%;
 }
 
 @media only screen and (max-width: 700px){
-    .responsive2 {
+    .responsive {
         width: 49.99999%;
         margin: 6px 0;
     }
 }
 
 @media only screen and (max-width: 500px){
-    .responsive2 {
+    .responsive {
         width: 100%;
     }
 }
